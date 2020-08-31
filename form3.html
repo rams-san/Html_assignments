@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <h1><b>HTML form</b></h1>
+</head>
+<body>
+    <form>
+        <label for="name">Name :</label>
+        <input type="text" name="name" id="name" placeholder="At least 3 characters" required>
+        <br>
+        <br>
+        <label for="department">Department :</label>
+        <input type="text" name="department" id="department" placeholder="Must" required>
+        <br>
+        <br>
+        <label for="password">Password :</label>
+        <input type="password" name="password" id="password" placeholder="****" required>* Must have one uppercase and a lower case
+        <br>
+        <br>
+        <label for="">Gender</label>
+        <input type="radio" name="gender" id="gender" value="male">
+        <label for="gender">Male</label>
+        <input type="radio" name="gender" id="gender" value="female">
+        <label for="gender">Female</label>
+        <br>
+        <br>
+        <label for="">Your Skills :</label>
+        <input type="checkbox" name="css" id="css" value="css">
+        <label for="css">CSS</label>
+        <input type="checkbox" name="html" id="html" value="html">
+        <label for="html">HTML</label>
+        <input type="checkbox" name="php" id="php" value="php">
+        <label for="php">PHP</label>
+        <input type="checkbox" name="java" id="java" value="java">
+        <label for="java">JAVA</label>
+        <input type="checkbox" name="ruby" id="ruby" value="ruby">
+        <label for="ruby">RUBY</label>
+        <br>
+        <br>
+        <label for="">Maritial Status :</label>
+        <select name="maritialStatus" id="maritialStatus">
+            <option >--Choose your option--</option>
+            <option value="server1">yes</option>
+            <option value="server2">no</option>
+        </select> 
+        <br>
+        <br>
+        <textarea id="textArea" name="textArea" rows="5" cols="50" aria-placeholder="your bio... max 20 words">
+       
+        </textarea>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
